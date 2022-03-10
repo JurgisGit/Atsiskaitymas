@@ -134,6 +134,12 @@ header {
 	color: rgb(83, 83, 83);
 }
 
+.cards {
+	display: flex;
+	justify-content: space-between;
+	min-width: 991px;
+}
+
 .card {
 	width: 13rem;
 }
@@ -174,7 +180,7 @@ header {
 }
 .second-line img {
 	height: 1rem;
-	margin: auto;
+	margin: auto; /* Išcentravo ETH ikoną per vidurį */
 }
 
 .eth-price {
