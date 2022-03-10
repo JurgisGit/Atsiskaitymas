@@ -130,8 +130,66 @@ header {
     height: 2rem;
 }
 
+.super-rare-text, .super-rare-text a {
+	color: rgb(83, 83, 83);
+}
 
+.card {
+	width: 13rem;
+}
 
+.card img {
+	width: 100%;
+	vertical-align: middle; /* stebuklingas fix'as, šalina tarpa Img > div  */
+}
+
+.container {
+	padding: 0.6rem;
+	background-color: #EEEEEE;
+	border-radius: 0px 0px 8px 8px;
+}
+
+.line {
+	display: flex;
+	justify-content: space-between;
+}
+
+.line p {
+	margin: 0.3rem
+}
+
+.first-line {
+	font-size: 0.5rem;
+}
+
+.first-line p:first-child {
+	color: #ff8138;
+}
+.first-line p:last-child {
+	color: rgb(83, 83, 83);
+}
+
+.second-line {
+	font-size: 1rem;
+}
+.second-line img {
+	height: 1rem;
+	margin: auto;
+}
+
+.eth-price {
+	display: flex;
+
+}
+
+.eth-price p {
+	white-space: nowrap;
+}
+
+.third-line {
+	color: rgb(83, 83, 83);
+	font-size: 0.7rem;
+}
 
 
 
@@ -140,5 +198,4 @@ header {
 	color: grey;
 	margin-right: 1rem;
 	cursor: pointer;
-
 }
