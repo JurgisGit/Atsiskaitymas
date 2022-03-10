@@ -1,0 +1,23 @@
+Add Your Kit's Code to a Project
+
+<script src="https://kit.fontawesome.com/8b8f023bda.js" crossorigin="anonymous"></script>
+
+ Copy Kit Code!
+Copy your kit's code into the <head> of each template or page in your project where you want to use Font Awesome via this kit. If you've got other versions or flavors of Font Awesome already in use, make sure to remove them, mmkay?
+
+4 reikiamos nuorodos:
+
+<i class="fa-brands fa-facebook"></i>
+<i class="fa-brands fa-twitter"></i>
+<i class="fa-brands fa-instagram"></i>
+<i class="fa-brands fa-tiktok"></i>
+
+7 dydžai:
+
+  <p><i class="fa-solid fa-coffee fa-2xs"></i></p>
+  <p><i class="fa-solid fa-coffee fa-xs"></p>
+  <p><i class="fa-solid fa-coffee fa-sm"></p>
+  <p><i class="fa-solid fa-coffee"></p>
+  <p><i class="fa-solid fa-coffee fa-lg"></p>
+  <p><i class="fa-solid fa-coffee fa-xl"></p>
+  <p><i class="fa-solid fa-coffee fa-2xl"></p>

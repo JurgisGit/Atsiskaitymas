@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,400,900');
+body {
+	font-family: "Roboto", sans-serif;
+	margin: 2rem;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.nav-logo {
+	height: 25px;
+}
+
+.nav-items {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+}
+
+.nav-item {
+	margin: 0 1rem;
+}
+
+.nav-item a {
+	text-decoration: none;
+	color: rgb(83, 83, 83);
+}
+
+.nav-item:last-child a {
+	color: hwb(331 22% 0%);
+}
+
+#hamburger {
+	height: 15px;
+	width: auto;
+	color: rgb(83, 83, 83);
+}
+
+@media only screen and (max-width:768px) {
+	.main-nav {
+		display: none;
+	}
+}
+
+@media only screen and (min-width:768px) {
+	#hamburger {
+		display: none;
+	}
+}
+
+#signup-section {
+	margin-top: 7rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.signup-section-text {
+    flex:1
+}
+
+.signup-launch {
+	color: #FF3998;
+	font-size: 0.7rem;
+	margin: 0;
+}
+
+.signup-title {
+	font-weight: bold;
+	font-size: 3rem;
+	margin: 1rem 0;
+}
+
+.signup-description {
+	color: rgb(83, 83, 83);
+	font-size: 0.9rem;
+}
+
+.signup-button {
+	background-color: white;
+	width: 120px;
+	padding: 10px;
+    margin-top: 1rem;
+	border-radius: 5rem;
+	font-size: small;
+	cursor: pointer;
+	box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+	border: solid 3px transparent;
+	background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(35deg, #FF3998, #FF8139, #39FFA0);
+	background-origin: border-box;
+	background-clip: content-box, border-box;
+	box-shadow: 2px 1000px 1px #fff inset;
+}
+
+#pinky {
+    height: 25rem;
+    position: absolute;
+    right: 50%;
+    left: 50%;
+    transform: translate(-50%,-15%);
+}
+
+.signup-section-image {
+    position: relative;
+    flex:1
+}
+
+#free-nft-section {
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(35deg, #FF3998, #FF8139, #39FFA0);
+    padding: 5rem 2rem 2rem 2rem;
+    margin-top: 10rem;
+    border-radius: 1rem;
+}
+
+.big-text {
+    font-size: 2rem;
+}
+
+#nft-companies {
+    display: flex;
+    justify-content: space-between;
+    margin: 5rem 0rem;
+
+}
+
+#nft-companies img {
+    height: 2rem;
+}
+
+
+
+
+
+
+
+.greyiconcolor {
+	color: grey;
+	margin-right: 1rem;
+	cursor: pointer;
+
+}
