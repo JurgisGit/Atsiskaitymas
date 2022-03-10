@@ -230,7 +230,10 @@ header {
 #bottom-menu-left {
 	margin-right: 4rem;
 }
-
+#bottom-menu-left p {
+	color: grey;
+	font-size: 0.7rem;
+}
 .greyiconcolor {
 	color: grey;
 	margin-right: 1rem;
@@ -245,6 +248,22 @@ header {
 	width: 100%;
   }
   
+  #bottom-menu-right p {
+	  color: grey;
+	  font-size: 0.7rem;
+  }
   #bottom-menu-right h4 {
 	  margin-top: 0;
+	  color: grey;
+	  font-size: 0.8rem;
+  }
+
+  #footer {
+	  display: flex;
+	  justify-content: space-between;
+  }
+  #footer p {
+	  color: rgb(167, 161, 161);
+	  font-size: 0.7rem;
+	  margin-top: 5rem;
   }
